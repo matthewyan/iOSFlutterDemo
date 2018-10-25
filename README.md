@@ -55,7 +55,7 @@
 
 6. 编译iOS主工程，此时将会生成目标framework，并拷贝至相应目录
 
-7. 将目标目录的framework添加至主工程
+7. 将目标目录的framework添加至主工程（引用的方式来添加）
 
 8. 主工程设置中的Embeded binaries，添加上App.framework和Flutter.framework (不添加的话，可能会无法启动)
 
